@@ -6,6 +6,8 @@ public class Launcher {
             command.add(new Quit(){});
             command.add(new Fibo(){});
             command.add(new Freq(){});
+            command.add(new Predict(){});
+
             System.out.println("Bienvenue sur le Launcher !");
             Scanner sc = new Scanner(System.in);
             while (true) {
